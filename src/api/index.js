@@ -1,6 +1,5 @@
 import request from './request';
 
-
 export const analyzeCommit = (params) => request({ url: `/analyze/commit`, params, method: 'post' }) // 分析提交
 export const feedbackCommit = (params) => request({ url: `/feedback/commit`, params, method: 'post' }) // 问题反馈
 export const task = (params) => request({ url: `/task`, params, method: 'get' }) // 检测任务是否存在
