@@ -1,0 +1,38 @@
+.layout{
+    width: 100%;
+    min-width: 1200px;
+
+    .layout-header{
+        background-color: #141414;
+        display: flex;
+        align-items: center;
+        color: #fff;
+        padding: 0 20px;
+        .logo{
+            cursor: pointer;
+            height: 40px;
+            width: 40px;
+            line-height: 40px;
+            text-align: center;
+            background-color: #eee;
+            color: #4a4a4a;
+            margin-right: 15px;
+        }
+        .name{
+            cursor: pointer;
+            font-size: 18px;
+        }
+    }
+
+    .layout-sider{
+        background-color: #fff;
+    }
+
+    .sider-wrapper{
+        min-height: calc(100vh - 64px);
+
+        .layout-content{
+            // padding: 20px;
+        }
+    }
+}

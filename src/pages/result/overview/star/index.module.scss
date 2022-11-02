@@ -1,0 +1,18 @@
+.star{
+    .col{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .left{
+            width: 120px;
+        }
+        .middle{
+            flex: 1;
+        }
+        .rigth{
+            width: 30px;
+            text-align: right;
+        }
+    }
+}
